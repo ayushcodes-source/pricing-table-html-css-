@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pricing table</title>
+    <style>
+        body{
+            background-color: rgb(34, 3, 97);
+        }
+        .pricing-container{
+            display: flex;
+            gap:10px;
+            justify-content: center;
+            align-items: flex-start;
+            height:100vh;
+           
+        }
+        .pricing-plan{
+            background-color: black;
+            color: white;
+            flex-basis: 300px;
+            height: 500px;
+        }
+        .plan-title{
+            text-align: center;
+            font-size: 1.2em;
+            padding:20px;
+        }
+        .plan-price{
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+        }
+        .plan-features{
+            list-style: circle;
+            padding-bottom: 50px;
+            
+        }
+       
+        .plan-features li {
+           margin-bottom: 20px;
+           margin-left: 20px;
+        }
+        .plan-button{
+            background-color:black;
+            color: white;
+            margin: 10px;
+            padding:15px 50px;
+            border:1px solid rgb(242, 3, 67);
+            border-radius: 5px;
+            margin-left: 63px;
+        }
+        .button{
+            background-color:rgb(242, 3, 67);
+            color: white;
+            margin: 10px;
+            padding:15px 50px;
+            border:1px solid rgb(255, 0, 0);
+            border-radius: 5px;
+            margin-left: 63px;
+        }
+        ::marker{
+            color: rgb(169, 25, 25);
+        }
+        h1{
+            color: white;
+            text-align: center;
+            margin:20px;
+            padding:20px;
+        }
+        *{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Imperial+Script&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="main">
+         <h1>Choose your plan</h1>
+    <div class="pricing-container">
+        <div class="pricing-plan">
+            <div class="plan-title">Starter</div>
+            <div class="plan-price">$19/month</div>
+            <ul class="plan-features">
+              <li>500GB Storage</li>
+              <li>1 user Allowed</li>
+              <li>send up to 3 GB</li>
+              <li>no E-mail account</li>
+            </ul>
+            <button class="plan-button">Add to Cart</button>
+        </div>
+        <div class="pricing-plan">
+            <div class="plan-title">Advanced</div>
+            <div class="plan-price">$29/month</div>
+            <ul class="plan-features">
+              <li>1 TB Storage</li>
+              <li>3 user Allowed</li>
+              <li>send up to 10 GB</li>
+              <li>5 E-mail account</li>
+            </ul>
+        <button class="button">Add to Cart</button>
+        </div>
+        <div class="pricing-plan">
+            <div class="plan-title">Premium</div>
+            <div class="plan-price">$49/month</div>
+            <ul class="plan-features">
+              <li>2 TB Storage</li>
+              <li>6 user Allowed</li>
+              <li>send up to 20 GB</li>
+              <li>10 E-mail account</li>
+            </ul>
+        <button class="plan-button">Add to Cart</button>
+        </div>
+    </div>
+   
+</div>
+</body>
+</html>
